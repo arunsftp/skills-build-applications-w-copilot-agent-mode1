@@ -1,0 +1,185 @@
+
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #263238;
+}
+
+body {
+  background: linear-gradient(120deg, #f8fafc 0%, #e0eafc 100%);
+  color: #263238;
+}
+
+
+
+.App-logo {
+  height: 60px;
+  width: auto;
+  margin-right: 16px;
+  vertical-align: middle;
+  float: left;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: #fff;
+  padding: 4px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-header {
+  background: transparent;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #1a237e;
+}
+
+
+
+.App-link {
+  color: #1976d2;
+  font-weight: 500;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.App-link:hover {
+  color: #0d47a1;
+  text-shadow: 0 2px 8px #b3e5fc;
+}
+
+
+/* Bootstrap Table Customization */
+.table-primary {
+  background-color: #b3e5fc !important;
+  color: #0d47a1;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e3f2fd;
+}
+.table-bordered th, .table-bordered td {
+  border-color: #1976d2 !important;
+}
+.table {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+/* Bootstrap Button Customization */
+.btn-success, .btn-outline-primary, .btn-secondary {
+  border-radius: 25px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+  color: #fff;
+  border: none;
+  box-shadow: 0 2px 8px rgba(67,206,162,0.12);
+  transition: background 0.2s, color 0.2s;
+}
+.btn-success:hover, .btn-outline-primary:hover, .btn-secondary:hover {
+  background: linear-gradient(90deg, #185a9d 0%, #43cea2 100%);
+  color: #fff;
+}
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: #185a9d;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-shadow: 0 2px 8px #e0eafc;
+  }
+
+  /* Navigation */
+  .navbar {
+    background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%) !important;
+    box-shadow: 0 2px 8px rgba(24,90,157,0.08);
+  }
+  .navbar-brand, .navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #b3e5fc !important;
+    text-shadow: 0 2px 8px #43cea2;
+  }
+  letter-spacing: 0.5px;
+}
+.btn-success {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+  border: none;
+}
+.btn-outline-primary {
+  color: #1976d2;
+  border-color: #1976d2;
+}
+.btn-outline-primary:hover {
+  background: #1976d2;
+  color: #fff;
+}
+.btn-secondary {
+  background: #b388ff;
+  border: none;
+}
+
+/* Headings */
+.card-title, h1, h2, h3, h4, h5 {
+  color: #1976d2;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-weight: 700;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: linear-gradient(90deg, #1976d2 0%, #64b5f6 100%) !important;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.1);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffd600 !important;
+}
+
+/* Modal Customization */
+.modal-content {
+  border-radius: 18px;
+  border: 2px solid #1976d2;
+}
+.modal-header {
+  background: #e3f2fd;
+  border-bottom: 1px solid #1976d2;
+}
+.modal-title {
+  color: #1976d2;
+}
+.modal-footer {
+  background: #f3e5f5;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
